@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background: url("src/assets/img/back1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+.card {
+  height: 100%;
+}
+
+.card-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-img-top {
+  height: 200px; /* Adjust the height as needed */
+  width: 100%; /* Set a fixed width for the image container */
+  object-fit: contain; /* Ensure the entire image fits within the container */
+}
